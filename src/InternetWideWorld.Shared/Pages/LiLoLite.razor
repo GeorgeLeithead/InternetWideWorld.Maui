@@ -1,0 +1,21 @@
+﻿@inject IJSRuntime _js
+
+@page "/lilolite"
+
+<main class="main">
+    <LiLoAbout />
+    <LiLoPortfolio />
+    <LiLoSource />
+    <LiLoFeatures />
+</main>
+@code {
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        var targetUrl = "./_content/InternetWideWorld.Shared/js/custom.min.js";
+        await _js.InvokeVoidAsync("loadJs", targetUrl);
+        var siteUrl = "./_content/InternetWideWorld.Shared/js/lilolite.min.js";
+        await _js.InvokeVoidAsync("loadJs", siteUrl);
+        var aosTarget = "./_content/InternetWideWorld.Shared/js/liloaosinit.min.js";
+        await _js.InvokeVoidAsync("loadJs", aosTarget);
+    }
+}

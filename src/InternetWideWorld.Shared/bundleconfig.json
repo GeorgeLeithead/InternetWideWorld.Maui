@@ -1,0 +1,62 @@
+[
+  {
+    "outputFileName": "wwwroot/css/main.min.css",
+    "inputFiles": [
+      "wwwroot/css/main.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/css/app.min.css",
+    "inputFiles": [
+      "wwwroot/css/app.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/js/anchorLink.min.js",
+    "inputFiles": [
+      "wwwroot/js/anchorLink.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/js/custom.min.js",
+    "inputFiles": [
+      "wwwroot/js/custom.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/js/lazysite.min.js",
+    "inputFiles": [
+      "wwwroot/js/lazysite.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/js/noframework.waypoints.min.js",
+    "inputFiles": [
+      "wwwroot/js/noframework.waypoints.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/js/siteaosinit.min.js",
+    "inputFiles": [
+      "wwwroot/js/siteaosinit.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/js/index.min.js",
+    "inputFiles": [
+      "wwwroot/js/index.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/js/lilolite.min.js",
+    "inputFiles": [
+      "wwwroot/js/lilolite.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/js/lilositeaosinit.min.js",
+    "inputFiles": [
+      "wwwroot/js/lilositeaosinit.js"
+    ]
+  }
+]

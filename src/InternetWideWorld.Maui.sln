@@ -2,11 +2,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InternetWideWorld.Server", "InternetWideWorld.Server\InternetWideWorld.Server.csproj", "{C5413A84-4D3D-451E-AA83-8427A85F1508}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InternetWideWorld.Client", "InternetWideWorld.Client\InternetWideWorld.Client.csproj", "{E8F7539B-400F-42D4-B5BA-7D3D8BB39849}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InternetWideWorld.Client", "InternetWideWorld.Client\InternetWideWorld.Client.csproj", "{E8F7539B-400F-42D4-B5BA-7D3D8BB39849}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InternetWideWorld.Shared", "InternetWideWorld.Shared\InternetWideWorld.Shared.csproj", "{73CAEB35-8B36-4DB2-97F8-EB805D153E97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InternetWideWorld.Shared", "InternetWideWorld.Shared\InternetWideWorld.Shared.csproj", "{73CAEB35-8B36-4DB2-97F8-EB805D153E97}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InternetWideWorld.Web", "InternetWideWorld.Web\InternetWideWorld.Web.csproj", "{90489D8D-9EDF-4861-87C1-01B78827759C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,10 +14,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C5413A84-4D3D-451E-AA83-8427A85F1508}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C5413A84-4D3D-451E-AA83-8427A85F1508}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C5413A84-4D3D-451E-AA83-8427A85F1508}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C5413A84-4D3D-451E-AA83-8427A85F1508}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E8F7539B-400F-42D4-B5BA-7D3D8BB39849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E8F7539B-400F-42D4-B5BA-7D3D8BB39849}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8F7539B-400F-42D4-B5BA-7D3D8BB39849}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
@@ -28,6 +24,10 @@ Global
 		{73CAEB35-8B36-4DB2-97F8-EB805D153E97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73CAEB35-8B36-4DB2-97F8-EB805D153E97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73CAEB35-8B36-4DB2-97F8-EB805D153E97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90489D8D-9EDF-4861-87C1-01B78827759C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90489D8D-9EDF-4861-87C1-01B78827759C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90489D8D-9EDF-4861-87C1-01B78827759C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90489D8D-9EDF-4861-87C1-01B78827759C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

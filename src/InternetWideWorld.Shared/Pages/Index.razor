@@ -1,0 +1,23 @@
+﻿@inject IJSRuntime _js
+
+@page "/"
+
+<Hero />
+<main class="main">
+    <About />
+    <Portfolio />
+    <Resume />
+    <Skills />
+    <Interests />
+</main>
+@code {
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        var targetUrl = "./_content/InternetWideWorld.Shared/js/custom.min.js";
+        await _js.InvokeVoidAsync("loadJs", targetUrl);
+        var siteUrl = "./_content/InternetWideWorld.Shared/js/index.min.js";
+        await _js.InvokeVoidAsync("loadJs", siteUrl);
+        var aosTarget = "./_content/InternetWideWorld.Shared/js/siteaosinit.min.js";
+        await _js.InvokeVoidAsync("loadJs", aosTarget);
+    }
+}

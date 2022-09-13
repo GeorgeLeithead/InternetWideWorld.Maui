@@ -17,4 +17,8 @@
     <ProjectReference Include="..\InternetWideWorld.Shared\InternetWideWorld.Shared.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Shared\" />
+  </ItemGroup>
+
 </Project>
